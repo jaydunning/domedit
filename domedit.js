@@ -252,9 +252,9 @@ var Stream = require('stream');
         return stream;
     };
 
-    if ( process.argv[1].indexOf('gulp') >= 0 ) {
+    if ( process.argv.length > 1 && process.argv[1].indexOf('gulp') >= 0 ) {
         module.exports = gulp;
-    } else if ( process.argv[1].indexOf('domedit.js') >= 0 ) {
+    } else if ( process.argv.length > 1 && process.argv[1].indexOf('domedit.js') >= 0 ) {
         cli();
     } else {
         module.exports = api;
