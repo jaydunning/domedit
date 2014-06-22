@@ -1,0 +1,7 @@
+{
+    "#hello": {
+        "content"       : "Hello World!",
+        "discard-attr"  : "id",
+        "@class"        : "greeting"
+    }
+}
