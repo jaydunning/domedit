@@ -1,0 +1,39 @@
+{
+  "name": "domedit",
+  "version": "0.0.1",
+  "description": "Declarative DOM editor",
+  "main": "domedit.js",
+  "preferGlobal": true,
+  "license": "MIT",
+  "homepage": "https://github.com/jaydunning/domedit",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaydunning/domedit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaydunning/domedit/issues"
+  },
+  "bin": {
+    "domedit": "domedit.js"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "jsdom-nogyp": "^0.8.3"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "html",
+    "dom",
+    "edit",
+    "css"
+  ],
+  "author": "Jay Dunning <mail@jaydunning.net>"
+}
