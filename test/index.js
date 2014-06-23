@@ -1,4 +1,3 @@
-var jsdom = require('jsdom-nogyp');
 var domeditapi = require('../domedit.js');
 
 var testrunner = function(tests) {
